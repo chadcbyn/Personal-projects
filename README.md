@@ -12,8 +12,8 @@ Right now, I’ve only planted one seed: my **Heapsort Game**. But more blooms a
 A fun, interactive way to learn and practice the **Heapsort algorithm**!  
 Instead of just reading code, you *play* with the sorting process.
 
-🔗 [Check out the game here](./HeapsortGame)  
-📂 Folder: `HeapsortGame/`
+🔗 [Check out the game here](./Heapsort%20Game.xcodeproj)  
+📂 Folder: `Heapsort Game.xcodeProj`
 
 **Highlights:**
 - Implements **Heapsort** step by step 🌀
@@ -26,4 +26,4 @@ Instead of just reading code, you *play* with the sorting process.
 
 | 🌟 Project | 📁 Folder | 📜 Description |
 |------------|-----------|----------------|
-| 🏰 **Heapsort Game** | [`HeapsortGame/`](./HeapsortGame) | A playful way to learn Heapsort |
+| 🏰 **Heapsort Game** | [`HeapsortGame/`](./Heapsort%20Game.xcodeproj) | A playful way to learn Heapsort |
