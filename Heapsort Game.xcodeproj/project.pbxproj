@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B112EA9D2E85BD350008C6A1 /* Heapsort_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112EA9C2E85BD350008C6A1 /* Heapsort_GameApp.swift */; };
+		B112EA9F2E85BD350008C6A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112EA9E2E85BD350008C6A1 /* ContentView.swift */; };
+		B112EAA12E85BD470008C6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B112EAA02E85BD470008C6A1 /* Assets.xcassets */; };
+		B112EAA42E85BD470008C6A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B112EAA32E85BD470008C6A1 /* Preview Assets.xcassets */; };
+		B112EAAE2E85BD480008C6A1 /* Heapsort_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112EAAD2E85BD480008C6A1 /* Heapsort_GameTests.swift */; };
+		B112EAB82E85BD480008C6A1 /* Heapsort_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112EAB72E85BD480008C6A1 /* Heapsort_GameUITests.swift */; };
+		B112EABA2E85BD480008C6A1 /* Heapsort_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112EAB92E85BD480008C6A1 /* Heapsort_GameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B112EAAA2E85BD480008C6A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B112EA912E85BD350008C6A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B112EA982E85BD350008C6A1;
+			remoteInfo = "Heapsort Game";
+		};
+		B112EAB42E85BD480008C6A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B112EA912E85BD350008C6A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B112EA982E85BD350008C6A1;
+			remoteInfo = "Heapsort Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B112EA992E85BD350008C6A1 /* Heapsort Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heapsort Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B112EA9C2E85BD350008C6A1 /* Heapsort_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heapsort_GameApp.swift; sourceTree = "<group>"; };
+		B112EA9E2E85BD350008C6A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B112EAA02E85BD470008C6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B112EAA32E85BD470008C6A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B112EAA92E85BD480008C6A1 /* Heapsort GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heapsort GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B112EAAD2E85BD480008C6A1 /* Heapsort_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heapsort_GameTests.swift; sourceTree = "<group>"; };
+		B112EAB32E85BD480008C6A1 /* Heapsort GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heapsort GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B112EAB72E85BD480008C6A1 /* Heapsort_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heapsort_GameUITests.swift; sourceTree = "<group>"; };
+		B112EAB92E85BD480008C6A1 /* Heapsort_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heapsort_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B112EA962E85BD350008C6A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B112EAA62E85BD480008C6A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B112EAB02E85BD480008C6A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B112EA902E85BD350008C6A1 = {
+			isa = PBXGroup;
+			children = (
+				B112EA9B2E85BD350008C6A1 /* Heapsort Game */,
+				B112EAAC2E85BD480008C6A1 /* Heapsort GameTests */,
+				B112EAB62E85BD480008C6A1 /* Heapsort GameUITests */,
+				B112EA9A2E85BD350008C6A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B112EA9A2E85BD350008C6A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B112EA992E85BD350008C6A1 /* Heapsort Game.app */,
+				B112EAA92E85BD480008C6A1 /* Heapsort GameTests.xctest */,
+				B112EAB32E85BD480008C6A1 /* Heapsort GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B112EA9B2E85BD350008C6A1 /* Heapsort Game */ = {
+			isa = PBXGroup;
+			children = (
+				B112EA9C2E85BD350008C6A1 /* Heapsort_GameApp.swift */,
+				B112EA9E2E85BD350008C6A1 /* ContentView.swift */,
+				B112EAA02E85BD470008C6A1 /* Assets.xcassets */,
+				B112EAA22E85BD470008C6A1 /* Preview Content */,
+			);
+			path = "Heapsort Game";
+			sourceTree = "<group>";
+		};
+		B112EAA22E85BD470008C6A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B112EAA32E85BD470008C6A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B112EAAC2E85BD480008C6A1 /* Heapsort GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B112EAAD2E85BD480008C6A1 /* Heapsort_GameTests.swift */,
+			);
+			path = "Heapsort GameTests";
+			sourceTree = "<group>";
+		};
+		B112EAB62E85BD480008C6A1 /* Heapsort GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B112EAB72E85BD480008C6A1 /* Heapsort_GameUITests.swift */,
+				B112EAB92E85BD480008C6A1 /* Heapsort_GameUITestsLaunchTests.swift */,
+			);
+			path = "Heapsort GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B112EA982E85BD350008C6A1 /* Heapsort Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B112EABD2E85BD480008C6A1 /* Build configuration list for PBXNativeTarget "Heapsort Game" */;
+			buildPhases = (
+				B112EA952E85BD350008C6A1 /* Sources */,
+				B112EA962E85BD350008C6A1 /* Frameworks */,
+				B112EA972E85BD350008C6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heapsort Game";
+			productName = "Heapsort Game";
+			productReference = B112EA992E85BD350008C6A1 /* Heapsort Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B112EAA82E85BD480008C6A1 /* Heapsort GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B112EAC02E85BD480008C6A1 /* Build configuration list for PBXNativeTarget "Heapsort GameTests" */;
+			buildPhases = (
+				B112EAA52E85BD480008C6A1 /* Sources */,
+				B112EAA62E85BD480008C6A1 /* Frameworks */,
+				B112EAA72E85BD480008C6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B112EAAB2E85BD480008C6A1 /* PBXTargetDependency */,
+			);
+			name = "Heapsort GameTests";
+			productName = "Heapsort GameTests";
+			productReference = B112EAA92E85BD480008C6A1 /* Heapsort GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B112EAB22E85BD480008C6A1 /* Heapsort GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B112EAC32E85BD480008C6A1 /* Build configuration list for PBXNativeTarget "Heapsort GameUITests" */;
+			buildPhases = (
+				B112EAAF2E85BD480008C6A1 /* Sources */,
+				B112EAB02E85BD480008C6A1 /* Frameworks */,
+				B112EAB12E85BD480008C6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B112EAB52E85BD480008C6A1 /* PBXTargetDependency */,
+			);
+			name = "Heapsort GameUITests";
+			productName = "Heapsort GameUITests";
+			productReference = B112EAB32E85BD480008C6A1 /* Heapsort GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B112EA912E85BD350008C6A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B112EA982E85BD350008C6A1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B112EAA82E85BD480008C6A1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B112EA982E85BD350008C6A1;
+					};
+					B112EAB22E85BD480008C6A1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B112EA982E85BD350008C6A1;
+					};
+				};
+			};
+			buildConfigurationList = B112EA942E85BD350008C6A1 /* Build configuration list for PBXProject "Heapsort Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B112EA902E85BD350008C6A1;
+			productRefGroup = B112EA9A2E85BD350008C6A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B112EA982E85BD350008C6A1 /* Heapsort Game */,
+				B112EAA82E85BD480008C6A1 /* Heapsort GameTests */,
+				B112EAB22E85BD480008C6A1 /* Heapsort GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B112EA972E85BD350008C6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B112EAA42E85BD470008C6A1 /* Preview Assets.xcassets in Resources */,
+				B112EAA12E85BD470008C6A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B112EAA72E85BD480008C6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B112EAB12E85BD480008C6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B112EA952E85BD350008C6A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B112EA9F2E85BD350008C6A1 /* ContentView.swift in Sources */,
+				B112EA9D2E85BD350008C6A1 /* Heapsort_GameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B112EAA52E85BD480008C6A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B112EAAE2E85BD480008C6A1 /* Heapsort_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B112EAAF2E85BD480008C6A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B112EABA2E85BD480008C6A1 /* Heapsort_GameUITestsLaunchTests.swift in Sources */,
+				B112EAB82E85BD480008C6A1 /* Heapsort_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B112EAAB2E85BD480008C6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B112EA982E85BD350008C6A1 /* Heapsort Game */;
+			targetProxy = B112EAAA2E85BD480008C6A1 /* PBXContainerItemProxy */;
+		};
+		B112EAB52E85BD480008C6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B112EA982E85BD350008C6A1 /* Heapsort Game */;
+			targetProxy = B112EAB42E85BD480008C6A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B112EABB2E85BD480008C6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B112EABC2E85BD480008C6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B112EABE2E85BD480008C6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heapsort Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BynDevs.Heapsort-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B112EABF2E85BD480008C6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heapsort Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BynDevs.Heapsort-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B112EAC12E85BD480008C6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BynDevs.Heapsort-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heapsort Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heapsort Game";
+			};
+			name = Debug;
+		};
+		B112EAC22E85BD480008C6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BynDevs.Heapsort-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heapsort Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heapsort Game";
+			};
+			name = Release;
+		};
+		B112EAC42E85BD480008C6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BynDevs.Heapsort-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heapsort Game";
+			};
+			name = Debug;
+		};
+		B112EAC52E85BD480008C6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BynDevs.Heapsort-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heapsort Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B112EA942E85BD350008C6A1 /* Build configuration list for PBXProject "Heapsort Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B112EABB2E85BD480008C6A1 /* Debug */,
+				B112EABC2E85BD480008C6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B112EABD2E85BD480008C6A1 /* Build configuration list for PBXNativeTarget "Heapsort Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B112EABE2E85BD480008C6A1 /* Debug */,
+				B112EABF2E85BD480008C6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B112EAC02E85BD480008C6A1 /* Build configuration list for PBXNativeTarget "Heapsort GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B112EAC12E85BD480008C6A1 /* Debug */,
+				B112EAC22E85BD480008C6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B112EAC32E85BD480008C6A1 /* Build configuration list for PBXNativeTarget "Heapsort GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B112EAC42E85BD480008C6A1 /* Debug */,
+				B112EAC52E85BD480008C6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B112EA912E85BD350008C6A1 /* Project object */;
+}
