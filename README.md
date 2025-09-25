@@ -26,4 +26,4 @@ Instead of just reading code, you *play* with the sorting process.
 
 | 🌟 Project | 📁 Folder | 📜 Description |
 |------------|-----------|----------------|
-| 🏰 **Heapsort Game** | [`HeapsortGame/`](./Heapsort%20Game.xcodeproj) | A playful way to learn Heapsort |
+| 🏰 **Heapsort Game** | [`Heapsort Game.xcodeproj`](./Heapsort%20Game.xcodeproj) | A playful way to learn Heapsort |
